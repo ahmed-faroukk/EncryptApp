@@ -1,6 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2021 The Android Open Source Project
+# Gradle files
+.gradle/
+build/
 
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance wit
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
